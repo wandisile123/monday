@@ -1,0 +1,204 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: #ecf0f1;
+
+}
+.logo span{
+font-size: 10px;
+}
+.navigation a:hover{
+  background: #2ECC71;
+  height: 80px;
+  width: 70px;
+}
+.navigation ul{
+  list-style: none;
+  text-align: center;
+  margin-top: -70px;
+  padding-bottom: 15px;
+
+}
+.navigation img{
+  padding: 10px;
+  margin-bottom: -10px;
+}
+.navigation ul li{
+  display: inline-grid;
+  font-size: 20px;
+  margin: 10px;
+  padding: 13px;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: black;
+}
+.onecontact{
+background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/opera.jpeg");
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  padding-top: 150px;
+  color: white;
+}
+.one{
+  margin-left: 200px;
+}
+.one h1{
+  font-size: 70px;
+}
+#buttons input{
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 15px;
+  width: 200px;
+}
+
+#one{
+    background-color:  #2ECC71;
+   color:  white;
+  border: 2px solid #2ECC71;
+
+  height: 70px;
+}
+#two {
+  background-color:  white;
+  color: black;
+  border: 2px solid white;
+}
+.plot{
+  text-align: center;
+  margin-top: 90px;
+}
+.plot h1{
+  font-size: 50px;
+}
+.plot p{
+  margin-top:-30px;
+  color: #CCCCCC;
+}
+.plot h5{
+  margin-bottom: -30px;
+  font-size: 20px;
+  color: #CCCCCC;
+}
+.Services{
+  width: 85%;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  margin-top: 200px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+
+
+}
+.grid-item{
+ background:#ECF0F1;
+  padding: 20px;
+  font-size: 20px;
+
+  text-align: center;
+height: 300px;
+
+}
+.grid-item p{
+    color: #CCCCCC;
+}
+.grid-iteme{
+background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../images/phone.jpeg");
+font-size: 20px;
+text-align: center;
+height: 450px;
+width: 500px;
+color: #ffffff;
+margin-top: -50px;
+}
+.grid-iteme h5{
+
+  margin-top: 90px;
+}
+.options{
+  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../images/hoot.jpeg");
+background-size: cover;
+background-position: center;
+  font-size: 20px;
+  text-align: center;
+  height: 490px;
+  width: 400px;
+  color: #ffffff;
+  margin-top: -50px;
+}
+.command{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 19px;
+  color: #CCCCCC;
+}
+.container{
+  background: #ecf0f1;
+    text-align: center;
+  display: grid;
+  margin-top: 100px;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  height: 400px;
+
+}
+.option p{
+  color: #CCCCCC;
+}
+.options p{
+  color: #ffffff;
+}
+.brown{
+  text-align: center;
+    margin-top: 100px;
+}
+.brown h1{
+  font-size: 50px;
+}
+
+.brown h5,p{
+color: #CCCCCC;
+}
+.cop{
+  display: flex;
+  justify-content: space-between;
+  width:85%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+.bye-consectetur{
+  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../images/hoot.jpeg");
+  height: 450px;
+  width: 750px;
+
+}
+.got {
+height: 200px;
+margin-top: 20px;
+border: 1px solid black;
+
+}
+.grid-container h5{
+
+color: #CCCCCC;
+}
+.bye{
+  width:450px;
+  border: 1px solid black;
+  display: flex;
+}
+.jobe span{
+  color: #ffffff;
+}
+.jobe {
+  color: #ffffff;
+}
