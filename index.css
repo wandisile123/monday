@@ -2,22 +2,25 @@ html, body{
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: #ecf0f1;
+  background: #F7F7F7;
+  font-family: 'Heebo', sans-serif;
 
 }
 .logo span{
 font-size: 10px;
 }
-.navigation a:hover{
+/* .navigation a:hover{
   background: #2ECC71;
   height: 80px;
   width: 70px;
-}
+
+} */
 .navigation ul{
   list-style: none;
   text-align: center;
   margin-top: -70px;
   padding-bottom: 15px;
+
 
 }
 .navigation img{
@@ -36,7 +39,7 @@ font-size: 10px;
   color: black;
 }
 .onecontact{
-background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("opera.jpeg");
+background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/opera.jpeg");
 background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,11 +61,11 @@ background-size: cover;
 }
 
 #one{
-    background-color:  #2ECC71;
+    background-color:  #5EB823;
    color:  white;
-  border: 2px solid #2ECC71;
+  border: 2px solid #5EB823;
 
-  height: 70px;
+  /* height: 70px; */
 }
 #two {
   background-color:  white;
@@ -98,7 +101,7 @@ background-size: cover;
 
 }
 .grid-item{
- background:#ECF0F1;
+ background:#ffffff;
   padding: 20px;
   font-size: 20px;
 
@@ -108,9 +111,10 @@ height: 300px;
 }
 .grid-item p{
     color: #CCCCCC;
+
 }
 .grid-iteme{
-background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("phone.jpeg");
+background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../images/phone.jpeg");
 font-size: 20px;
 text-align: center;
 height: 450px;
@@ -123,7 +127,7 @@ margin-top: -50px;
   margin-top: 90px;
 }
 .options{
-  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("hoot.jpeg");
+  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../images/hoot.jpeg");
 background-size: cover;
 background-position: center;
   font-size: 20px;
@@ -176,7 +180,7 @@ color: #CCCCCC;
 }
 
 .bye-consectetur{
-  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("hoot.jpeg");
+  background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.8)), url("../images/plot.jpeg");
   height: 450px;
   width: 750px;
 
@@ -184,7 +188,7 @@ color: #CCCCCC;
 .got {
 height: 200px;
 margin-top: 20px;
-border: 1px solid black;
+/* border: 1px solid black; */
 
 }
 .grid-container h5{
@@ -193,12 +197,49 @@ color: #CCCCCC;
 }
 .bye{
   width:450px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
 }
 .jobe span{
   color: #ffffff;
 }
+.bye-text p{
+
+}
+.bye-consectetur button {
+ background-color:  white;
+ font-size: 20px;
+
+ padding-left: 70px;
+  color: black;
+  border: 2px solid white;
+  }
+.bye-consectetur h2{
+color: #ffffff;
+padding-left: 70px;
+}
+
+
+.bye-texte p{
+padding-left: 70px;
+  color: #ffffff;
+}
+
+
 .jobe {
   color: #ffffff;
+  padding-left: 70px;
+}
+.bye-text h2:hover{
+    color:#2ECC71;
+}
+/* .bye-icons img:hover{
+    color:#2ECC71;
+} */
+.bye-iconse h2{
+  color:#2ECC71;
+}
+.jobee{
+  text-align: center;
+  margin-top: 100px;
 }
