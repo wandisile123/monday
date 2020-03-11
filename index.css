@@ -9,12 +9,9 @@ html, body{
 .logo span{
 font-size: 10px;
 }
-/* .navigation a:hover{
-  background: #2ECC71;
-  height: 80px;
-  width: 70px;
-
-} */
+ .navigation a:hover{
+  color: #2ECC71;
+}
 .navigation ul{
   list-style: none;
   text-align: center;
@@ -118,12 +115,13 @@ background-image:linear-gradient(rgba(46,204,113),rgba(0,0,0,0.5)), url("../imag
 font-size: 20px;
 text-align: center;
 height: 450px;
+
 width: 500px;
 color: #ffffff;
 margin-top: -50px;
 }
 .grid-iteme h5{
-
+color: #ffffff;
   margin-top: 90px;
 }
 .options{
@@ -202,15 +200,14 @@ color: #CCCCCC;
 }
 .jobe span{
   color: #ffffff;
+  margin-bottom: 400px;
 }
-.bye-text p{
 
-}
 .bye-consectetur button {
  background-color:  white;
  font-size: 20px;
+margin-left: 70px;
 
- padding-left: 70px;
   color: black;
   border: 2px solid white;
   }
@@ -233,13 +230,14 @@ padding-left: 70px;
 .bye-text h2:hover{
     color:#2ECC71;
 }
-/* .bye-icons img:hover{
-    color:#2ECC71;
-} */
+
 .bye-iconse h2{
   color:#2ECC71;
 }
 .jobee{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
+}
+.jobee var:hover{
+  color:#2ECC71;
 }
